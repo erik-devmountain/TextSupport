@@ -1,0 +1,22 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.centerInfo {
+  margin: 100px auto;
+  text-align: center;
+  width: 400px;
+}
+
+.from {
+  color: #3498db;
+}
+
+.sent {
+  color: #e74c3c;
+  font-family: monospace;
+}
+
+.btn {
+  margin-top: 5px;
+}

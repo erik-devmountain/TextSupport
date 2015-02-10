@@ -1,0 +1,10 @@
+<div class="conversation well" ng-repeat="message in messages">
+  <p class="from">From: {{message.from}}</p>
+  <p>To: {{message.to}}</p>
+  <p class="sent">{{ message.date_sent}}</p>
+  <p>Content: {{message.body}}</p>
+  <form>
+    <input class="form-control" placeholder="Enter reply" ng-model="messagereply">
+    <button ng-click="sendReply(messagereply)" class="btn btn-primary">Send reply</button>
+  </form>
+</div>
